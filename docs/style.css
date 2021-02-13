@@ -1,3 +1,16 @@
 body {
+    background-color: #000;
     font-family: 'Roboto';
+    margin: auto;
+    overflow: hidden;
+}
+
+.top-container {
+    height: 70vh;
+    width: 100vw;
+}
+
+.bottom-container {
+    height: 30vh;
+    width: 100vw;
 }
