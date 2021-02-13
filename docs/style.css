@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto';
     margin: auto;
     overflow: hidden;
+    text-align: center;
 }
 
 .top-container {
@@ -13,4 +14,22 @@ body {
 .bottom-container {
     height: 30vh;
     width: 100vw;
+}
+
+.keypad {
+    background-color: #111;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+.keypad td {
+    color: #fff;
+    font-size: 3vh;
+    height: 10vh;
+    padding: 0;
+    width: 25vw;
+}
+
+.keypad td:hover {
+    background-color: #222;
 }
