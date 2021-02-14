@@ -6,12 +6,36 @@ body {
     text-align: center;
 }
 
-.top-container {
-    height: 70vh;
+.title {
+    height: 10vh;
     width: 100vw;
 }
 
+.title table {
+    border-collapse: collapse;
+    margin: auto;
+    user-select: none;
+}
+
+.title td {
+    background-color: #111;
+    height: 10vh;
+    padding: 0;
+    width: 100vw;
+}
+
+.title a {
+    color: #fff;
+    font-size: 3.5vh;
+    text-decoration: none;
+}
+
 .scoreboard {
+    height: 60vh;
+    width: 100vw;
+}
+
+.scoreboard table {
     border-collapse: collapse;
     margin: auto;
 }
@@ -20,7 +44,7 @@ body {
     background-color: #111;
     color: #fff;
     font-size: 2vh;
-    height: 7vh;
+    height: 6.5vh;
     padding: 0;
     width: 7.5vw;
 }
@@ -49,12 +73,12 @@ body {
     border-right: 3px solid #222;
 }
 
-.bottom-container {
+.keypad {
     height: 30vh;
     width: 100vw;
 }
 
-.keypad {
+.keypad table {
     background-color: #111;
     border-collapse: collapse;
     user-select: none;
