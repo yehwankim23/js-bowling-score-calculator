@@ -46,7 +46,7 @@ body {
     font-size: 2vh;
     height: 6.5vh;
     padding: 0;
-    width: 7.5vw;
+    width: 7.5vmin;
 }
 
 .spacer td {
@@ -81,6 +81,7 @@ body {
 .keypad table {
     background-color: #111;
     border-collapse: collapse;
+    margin: auto;
     user-select: none;
 }
 
@@ -89,7 +90,7 @@ body {
     font-size: 3vh;
     height: 10vh;
     padding: 0;
-    width: 25vw;
+    width: 25vmin;
 }
 
 .keypad td:hover {
