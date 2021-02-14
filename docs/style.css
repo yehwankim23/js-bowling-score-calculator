@@ -11,6 +11,44 @@ body {
     width: 100vw;
 }
 
+.scoreboard {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.scoreboard td {
+    background-color: #111;
+    color: #fff;
+    font-size: 2vh;
+    height: 7vh;
+    padding: 0;
+    width: 7.5vw;
+}
+
+.spacer td {
+    background-color: #000;
+}
+
+.frames td {
+    font-size: 2.5vh;
+}
+
+.rolls td:nth-child(odd) {
+    border-left: 3px solid #222;
+    border-right: 3px solid #222;
+    border-top: 3px solid #222;
+}
+
+.rolls td:nth-child(even), .rolls td:last-child {
+    border: 3px solid #222;
+}
+
+.scores td {
+    border-bottom: 3px solid #222;
+    border-left: 3px solid #222;
+    border-right: 3px solid #222;
+}
+
 .bottom-container {
     height: 30vh;
     width: 100vw;
