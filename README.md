@@ -1,3 +1,3 @@
 # Bowling Score Calculator
 
-### [Calculate](https://tinyurl.com/bowlingscore)
+### [Calculate](https://yehwankim23.github.io/bowling-score-calculator/)
